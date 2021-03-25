@@ -146,7 +146,7 @@
 	padding: 100px 0;
 }
 
-.about .title, .skills .title, .projects .title, .contact .title{
+.about .title, .skills .title, .projects .title, .contact .title, .education .title{
 	position: relative;
 	text-align: center;
 	font-size: 40px;
@@ -155,7 +155,7 @@
 	padding-bottom: 20px;
 	font-family: "Ubuntu", sans-serif;
 }
-.about .title::before, .skills .title::before, .projects .title::before, .contact .title::before{
+.about .title::before, .education .title::before, .skills .title::before, .projects .title::before, .contact .title::before{
 	content:"";
 	position: absolute;
 	bottom: 0px;
@@ -180,7 +180,7 @@
 
 
 /* about section styling */
-.about, .skills, .projects, .contact {
+.about, .skills, .projects, .contact, .education{
 	font-family: "Poppins", sans-serif;
 }
 
@@ -191,7 +191,7 @@
 
 
 .about .about-content, .skills .skills-content, 
-.projects .projects-content, .contact .contact-content{
+.projects .projects-content, .contact .contact-content, .education .education-content{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -243,44 +243,17 @@
 	background: none;
 }
 
+
 /* education section styling*/
+
+.education .education-content .column{
+	width:calc(50% - 30px);
+
+}
 .education{
 	padding: 100px 0;
-	width: 50%;
-	margin-bottom: 80px;
-
-}
-.education{
 	color:#111;
 	background: #ADD8E6;
-	border: 1px; 
-	float: left;
-	width: 50%;
-	box-sizing: border-box;
-	background-size: cover;
-
-
-}
-
-.education .title{
-	position: relative;
-	text-align: center;
-	font-size: 40px;
-	font-weight: 500;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
-	font-family: "Ubuntu", sans-serif;
-}
-
-.education .title::before{
-	content:"";
-	position: absolute;
-	left: 50%;
-	bottom: 0px;
-	width:180px;
-	height: 3px;
-	background: #111;
-	transform: translateX(-50%);
 
 }
 
@@ -293,96 +266,23 @@
 	padding:5px;
 	background: #ADD8E6;
 	transform: translateX(-50%);
-}
-
-
-.education {
-	font-family: "Poppins", sans-serif;
-}
-
-.education .title::after{
 	content:" what I pursue ";
 }
 
 
-.education .school-title{
+.education .education-content .text, .education .education-content .text1{
 	font-size: 25px;
 	font-weight: 400;
 	font-family: "Ubuntu", sans-serif;
 
 }
 
+.education .education-content .right .text1{
+	margin-top: 20px;
 
-/* experiences styling*/
-.experiences{
-	padding: 100px 0; 
-	width: 60%;
-	margin-bottom: 80px;
-
-}
-.experiences{
-	color:#111;
-	background: #ADD8E6;
-	border: 1px;
-	box-sizing: border-box;
-	float: right;
-	width: 50%;
-	background-size: cover;
-}
-
-.experiences .title{
-	position: relative;
-	text-align: center;
-	font-size: 40px;
-	font-weight: 500;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
-	font-family: "Ubuntu", sans-serif;
-}
-
-.experiences .title::before{
-	content:" ";
-	position: absolute;
-	left: 50%;
-	bottom: 0px;
-	width:180px;
-	height: 3px;
-	background: #111;
-	transform: translateX(-50%);
 
 }
 
-.experiences .title::after{
-	position: absolute;
-	left: 50%;
-	bottom: -12px;
-	font-size: 20px;
-	color: crimson;
-	padding:5px;
-	background: #ADD8E6;
-	transform: translateX(-50%);
-}
-
-
-.experiences {
-	font-family: "Poppins", sans-serif;
-}
-
-.experiences .title::after{
-	content:" where I work ";
-}
-
-
-.experiences .experiences-content .exp-title{
-	font-size: 25px;
-	font-weight: 300;
-	font-family: "Ubuntu", sans-serif;
-
-}
-
-.experiences .experiences-content .description{
-	margin-bottom: 15px;
-}
 
 
 /*skills section*/
