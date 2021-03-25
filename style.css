@@ -252,7 +252,7 @@
 }
 .education{
 	color:#111;
-	background: #ADD8E6;
+	background: #111;
 	border: 1px; 
 	float: left;
 	width: 50%;
@@ -291,7 +291,7 @@
 	font-size: 20px;
 	color: crimson;
 	padding:5px;
-	background: #ADD8E6;
+	background: #111;
 	transform: translateX(-50%);
 }
 
@@ -322,7 +322,7 @@
 }
 .experiences{
 	color:#111;
-	background: #ADD8E6;
+	background: #111;
 	border: 1px;
 	box-sizing: border-box;
 	float: right;
@@ -359,7 +359,7 @@
 	font-size: 20px;
 	color: crimson;
 	padding:5px;
-	background: #ADD8E6;
+	background: #111;
 	transform: translateX(-50%);
 }
 
@@ -388,7 +388,7 @@
 /*skills section*/
 .skills{
 	padding: 100px 0;
-	color:#111;
+	color:#ADD8E6;
 	}
 
 .skills .title{
