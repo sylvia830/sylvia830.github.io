@@ -647,7 +647,7 @@ footer span a:hover{
 }
 }
 
-@media (max-width: 500px){
+@media (max-width: 200px){
     .menu-btn{
         display: block;
         z-index: 999;
@@ -831,6 +831,12 @@ footer span a:hover{
    	}
    }
 
+@media(max-width: 200px){
+   	.education, .experiences{
+   		height: 750px;
+   	}
+   }
+
    @media (max-width: 500px) {
     .home .home-content .text-2{
         font-size: 50px;
@@ -842,3 +848,4 @@ footer span a:hover{
         font-size: 19px;
     }
    }
+
