@@ -90,7 +90,7 @@
 	height: 100%;
 	z-index: 1;
 	opacity: 0.8;
-	background: url("home2.jpg") no-repeat center;
+	background: url("home.jpg") no-repeat center;
 	background-attachment: fixed; /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
 	background-size:cover; /* respnosive background, This is what makes the background image rescale based
