@@ -257,7 +257,7 @@
 	float: left;
 	width: 50%;
 	box-sizing: border-box;
-	background-size: contain;
+	background-size: cover;
 
 
 }
@@ -327,7 +327,7 @@
 	box-sizing: border-box;
 	float: right;
 	width: 50%;
-	background-size: contain;
+	background-size: cover;
 }
 
 .experiences .title{
