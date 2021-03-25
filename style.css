@@ -167,7 +167,7 @@
 
 }
 
-.about .title::after, .skills .title::after, .projects .title::after{
+.about .title::after, .skills .title::after, .projects .title::after, .education .title::after{
 	position: absolute;
 	bottom: -12px;
 	left:50%;
@@ -251,22 +251,17 @@
 
 }
 .education{
-	padding: 100px 0;
+	padding:100px 0;
 	color:#111;
 	background: #ADD8E6;
+
 
 }
 
 .education .title::after{
-	position: absolute;
-	left: 50%;
-	bottom: -12px;
-	font-size: 20px;
-	color: crimson;
-	padding:5px;
-	background: #ADD8E6;
-	transform: translateX(-50%);
 	content:" what I pursue ";
+	background: #ADD8E6;
+
 }
 
 
@@ -274,12 +269,6 @@
 	font-size: 25px;
 	font-weight: 400;
 	font-family: "Ubuntu", sans-serif;
-
-}
-
-.education .education-content .right .text1{
-	margin-top: 20px;
-
 
 }
 
@@ -494,10 +483,7 @@ footer span a:hover{
         margin-left: 0px;
     }
 
-    .education, .experiences{
-    	height:450px;
-    }
-
+ 
 
 
 }
@@ -507,12 +493,7 @@ footer span a:hover{
         margin-left: 0px;
     }
 
-    .education, .experiences{
-    	height:500px;
-    }
-
-
-
+  
 }
 
 @media (max-width: 1104px) {
@@ -594,11 +575,7 @@ footer span a:hover{
 
    }
 
-   @media(max-width: 872px){
-   	.education, .experiences{
-   		height: 550px;
-   	}
-   }
+  
 
    @media (max-width: 690px) {
     .max-width{
@@ -615,121 +592,8 @@ footer span a:hover{
     }
    }
 
-   @media(max-width: 745px){
-   	.experiences .title::after, .education .title::after{
-   		padding: 0 5px;
+   
 
-   	}
-
-   	.education .title{
-   		padding-bottom: 40px;
-   	}
-   	.experiences .title{
-   		padding-bottom: 20px;
-
-   	}
-   }
-
-   @media(width: 744px){
-   	.experiences .title::after, .education .title::after{
-   		padding: 0 5px;
-
-   	}
-
-   	.education .title{
-   		padding-bottom: 20px;
-   	}
-   	.experiences .title{
-   		padding-bottom: 20px;
-
-   	}
-   }
-
-
-   @media(max-width: 720px){
-   	.education, .experiences{
-   		height: 650px;
-   	}
-
-   	.experiences .title::after, .education .title::after{
-   		padding: 0 5px;
-
-   	}
-
-   	.education .title{
-   		padding-bottom: 40px;
-   	}
-   	.experiences .title{
-   		padding-bottom: 40px;
-
-   	}
-   }
-
-   @media(max-width: 690px){
-   	.experiences .title::after, .education .title::after{
-   		padding: 0 5px;
-
-   	}
-
-   	.education .title{
-   		padding-bottom: 15px;
-   	}
-   	.experiences .title{
-   		padding-bottom: 15px;
-
-   	}
-   }
-
-@media(max-width: 635px){
-   	.experiences .title::after, .education .title::after{
-   		padding: 0 5px;
-
-   	}
-
-   	.education .title{
-   		padding-bottom: 40px;
-   	}
-   	.experiences .title{
-   		padding-bottom: 15px;
-
-   	}
-   }
-
-@media(max-width: 610px){
-   	.experiences .title::after, .education .title::after{
-   		padding: 0 5px;
-
-   	}
-
-   	.education .title{
-   		padding-bottom: 40px;
-   	}
-   	.experiences .title{
-   		padding-bottom: 40px;
-
-   	}
-   }
-
-
-
-
-@media(max-width: 580px){
-   	.experiences .title::after, .education .title::after{
-   		padding: 0 5px;
-
-   	}
-
-   	.education .title, .experiences .title{
-   		padding-bottom: 40px;
-   	}
-   }
-
-
-   @media(max-width: 545px){
-   	.education, .experiences{
-   		height: 650px;
-   	}
-   }
 
    @media (max-width: 500px) {
     .home .home-content .text-2{
